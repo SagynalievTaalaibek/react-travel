@@ -1,0 +1,91 @@
+@use "../libs/variables"as *;
+@use "../libs/mixins"as *;
+
+.categories-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0;
+}
+
+.categories {
+  margin: 20px 0;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      font-size: 16px;
+      display: inline-block;
+      margin-right: 20px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .active {
+      background: #2a2939;
+      color: #EF7F1A;
+    }
+  }
+}
+
+.sort {
+  position: relative;
+
+  &__label {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 8px;
+    }
+
+    b {
+      margin-right: 8px;
+    }
+
+    span {
+      color: $colorBrand;
+      border-bottom: 1px dashed $colorBrand;
+      cursor: pointer;
+    }
+  }
+
+  &__popup {
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 160px;
+
+    ul {
+      overflow: hidden;
+      margin: 0;
+      padding: 5px 10px;
+
+      li {
+        padding: 5px 0;
+        list-style: none;
+        cursor: pointer;
+
+        &.active,
+        &:hover {
+          background: rgba(254, 95, 30, 0.05);
+        }
+
+        &.active {
+          font-weight: bold;
+          color: $colorBrand;
+        }
+      }
+    }
+  }
+}

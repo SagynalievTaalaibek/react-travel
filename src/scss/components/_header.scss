@@ -1,0 +1,62 @@
+@use "../libs/variables"as *;
+@use "../libs/mixins"as *;
+
+.header {
+  padding: 15px 0;
+  border-bottom: 1px solid gray;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    color: $colorBrand;
+    text-decoration: none;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 5px;
+      width: 25px;
+    }
+  }
+}
+
+.main-nav {
+  font-size: 18px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 40px;
+    border-bottom: 1px solid transparent;
+
+    a {
+      text-decoration: none;
+      color: $black;
+    }
+  }
+
+  li:hover {
+    border-bottom: 1px solid $black;
+  }
+}
+
+.user {
+  display: flex;
+  cursor: pointer;
+
+  img {
+    margin-right: 10px;
+  }
+}

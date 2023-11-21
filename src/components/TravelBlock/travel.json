@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Каньон Сказка",
+    "region": 0,
+    "description": "Небольшое ущелье на южном берегу Иссык-Куля, знаменитое своими красными глиняными скалами",
+    "price": 100,
+    "img": "https://st-1.akipress.org/127/.storage/limon2/images/july2016/f87bf38f5ea0f5f7c686d13d5e2be7c9.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ала-Арча",
+    "region": 1,
+    "description": "Ущелье Ала-Арча — это одна из самых знаменитых достопримечательностей",
+    "price": 200,
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/a4/8d/63/ala-archa-gorge.jpg?w=1200&h=1200&s=1"
+  },
+  {
+    "id": 3,
+    "name": "Каньон Сказка",
+    "region": 0,
+    "description": "Небольшое ущелье на южном берегу Иссык-Куля, знаменитое своими красными глиняными скалами",
+    "price": 100,
+    "img": "https://st-1.akipress.org/127/.storage/limon2/images/july2016/f87bf38f5ea0f5f7c686d13d5e2be7c9.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ала-Арча",
+    "region": 1,
+    "description": "Ущелье Ала-Арча — это одна из самых знаменитых достопримечательностей",
+    "price": 200,
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/a4/8d/63/ala-archa-gorge.jpg?w=1200&h=1200&s=1"
+  }
+]
